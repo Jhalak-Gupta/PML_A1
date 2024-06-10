@@ -1,0 +1,5 @@
+xy=input("Enter the string:")
+f1=open("data.txt","w")
+f1.write(xy)
+print("String added to the file")
+f1.close()
