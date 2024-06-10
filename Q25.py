@@ -1,0 +1,5 @@
+source_file=open("data1.txt", "r")
+content=source_file.read()
+destination_file=open("data2.txt", "w")
+destination_file.write(content)
+print("File copied successfully")
